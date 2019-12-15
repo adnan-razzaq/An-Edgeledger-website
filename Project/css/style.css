@@ -35,6 +35,11 @@ p {
   background: #333;
   color: white;
 }
+
+.bg-primary {
+  background: #93cb52;
+  color: white;
+}
 .py1 {
   padding: 1.5rem 0;
 }
@@ -188,3 +193,29 @@ p {
   width: 60%;
   margin: auto;
 }
+
+/* Section: contact */
+#contact {
+  display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/* AIzaSyAVRKtCdRX5q8DpqvefZRtFGH2Dh6Y7dVE */
