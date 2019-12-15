@@ -27,16 +27,33 @@ p {
 .text-primary {
   color: #93cb52;
 }
-
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-dark {
+  background: #333;
+  color: white;
+}
 .py1 {
   padding: 1.5rem 0;
 }
 .py2 {
   padding: 2rem 0;
 }
-.py1 {
+.py3 {
   padding: 3rem 0;
 }
+.p1 {
+  padding: 1.5rem;
+}
+.p2 {
+  padding: 2rem;
+}
+.p3 {
+  padding: 3rem;
+}
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
@@ -67,6 +84,16 @@ p {
 .btn-dark {
   background: #333;
   color: white;
+}
+
+.list {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border: #444 dotted 1px;
 }
 .text-center {
   text-align: center;
@@ -136,4 +163,28 @@ p {
   background: #93cb52;
   padding: 1rem;
   border-radius: 50%;
+}
+
+/* Section: Who we are */
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .who-img {
+  background: url("../image_resources/people.jpg") no-repeat center center/cover;
+}
+
+/* Section: clients  */
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  width: 60%;
+  margin: auto;
 }
